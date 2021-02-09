@@ -9,7 +9,7 @@ Clone this and save shellcode output file in the same directory (output filename
   - save as 'tmpshell.txt' in the same directory.
   
 2. Run the alt_beacon.py script.
-  - Probably want to change the function/variables in the 'mmniceness_template.cs' file (assumed to be in the same directory). If you change '$$$LENGTH$$$' and '$$$NICENESS$$$' in the template file then you will also have to change where it is looking for that in the python script (lines 41,42 and 44).
+  - Probably want to change the function/variables in the 'niceness_template.cs' file (assumed to be in the same directory). If you change '$$$LENGTH$$$' and '$$$NICENESS$$$' in the template file then you will also have to change where it is looking for that in the python script (lines 41,42 and 44).
   
 3. Outputs final.cs.
   - compile it or something.
